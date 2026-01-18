@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Ananthusvn - Web Developer & UI/UX Designer | Portfolio</title>
+    <meta name="description" content="Professional web developer and UI/UX designer specializing in modern web applications. View my portfolio, projects, and get in touch for your next project.">
+    <meta name="keywords" content="web developer, UI/UX designer, frontend developer, full stack developer, portfolio, web design, javascript, react, node.js">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourwebsite.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:title" content="Ananthusvn - Web Developer & UI/UX Designer">
+    <meta property="og:description" content="Professional web developer and UI/UX designer specializing in modern web applications.">
+    <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/">
+    <meta property="twitter:title" content="DeFolio Template - Web Developer & UI/UX Designer">
+    <meta property="twitter:description" content="Professional web developer and UI/UX designer specializing in modern web applications.">
+    <meta property="twitter:image" content="https://yourwebsite.com/images/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ananthusvn",
+        "jobTitle": "Web Developer & UI/UX Designer",
+        "url": "https://yourwebsite.com",
+        "sameAs": [
+            "https://github.com/yourusername",
+            "https://linkedin.com/in/yourusername",
+            "https://twitter.com/yourusername"
+        ],
+        "email": "your.email@example.com",
+        "description": "Professional web developer and UI/UX designer specializing in modern web applications."
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="#home">DeFolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon" id="themeIcon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting fade-in">Hello, I'm</p>
+                    <h1 class="hero-name slide-in-left">Ananthusvn</h1>
+                    <h2 class="hero-title slide-in-right">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description fade-in-delay">I create beautiful and functional web experiences</p>
+                    <div class="hero-buttons fade-in-delay-2">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="glow-effect"></div>
+                        <div class="profile-placeholder">
+                            <img src="img/placeholder.png" alt="Profile Picture" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="fade-in-up">Hello! I'm a passionate developer who loves creating digital experiences. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.</p>
+                    <p class="fade-in-up">When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community.</p>
+                    <div class="about-highlights fade-in-up">
+                        <div class="highlight-item">
+                            <span class="highlight-icon"><i class="fas fa-bullseye"></i></span>
+                            <span>Problem Solver</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon"><i class="fas fa-rocket"></i></span>
+                            <span>Fast Learner</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon"><i class="fas fa-lightbulb"></i></span>
+                            <span>Creative Thinker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-card">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <div class="stat-number" data-target="50">0</div>
+                                    <div class="stat-label">Projects</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number" data-target="100">0</div>
+                                    <div class="stat-label">Happy Clients</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number" data-target="5">0</div>
+                                    <div class="stat-label">Years Experience</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                Skills & Technologies
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Vue.js</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Design</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Adobe XD</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Prototyping</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                Featured Projects
+            </h2>
+            <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="E-Commerce Platform" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>E-Commerce Platform</h3>
+                                        <p>A modern e-commerce solution with real-time inventory management and secure payment processing.</p>
+                                        <div class="project-tech">
+                                            <span>React</span>
+                                            <span>Node.js</span>
+                                            <span>MongoDB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Task Management App" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Task Management App</h3>
+                                        <p>Collaborative task management tool with real-time updates and team collaboration features.</p>
+                                        <div class="project-tech">
+                                            <span>Vue.js</span>
+                                            <span>Firebase</span>
+                                            <span>TypeScript</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Analytics Dashboard" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Analytics Dashboard</h3>
+                                        <p>Data visualization dashboard with interactive charts and real-time analytics.</p>
+                                        <div class="project-tech">
+                                            <span>React</span>
+                                            <span>D3.js</span>
+                                            <span>Python</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Social Media App" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Social Media App</h3>
+                                        <p>Modern social networking platform with real-time messaging and content sharing.</p>
+                                        <div class="project-tech">
+                                            <span>React</span>
+                                            <span>Socket.io</span>
+                                            <span>PostgreSQL</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Learning Management System" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Learning Management System</h3>
+                                        <p>Comprehensive LMS with course management, quizzes, and progress tracking.</p>
+                                        <div class="project-tech">
+                                            <span>Laravel</span>
+                                            <span>Vue.js</span>
+                                            <span>MySQL</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Weather App" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Weather App</h3>
+                                        <p>Beautiful weather application with location-based forecasts and interactive maps.</p>
+                                        <div class="project-tech">
+                                            <span>React</span>
+                                            <span>OpenWeather API</span>
+                                            <span>Chart.js</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Fitness Tracker" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Fitness Tracker</h3>
+                                        <p>Comprehensive fitness tracking app with workout plans and progress analytics.</p>
+                                        <div class="project-tech">
+                                            <span>React Native</span>
+                                            <span>Node.js</span>
+                                            <span>MongoDB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Blog Platform" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Blog Platform</h3>
+                                        <p>Modern blogging platform with markdown support and SEO optimization.</p>
+                                        <div class="project-tech">
+                                            <span>Next.js</span>
+                                            <span>Prisma</span>
+                                            <span>PostgreSQL</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image">
+                                        <div class="project-overlay">
+                                            <a href="#" class="project-link">View Project</a>
+                                            <a href="#" class="project-link">GitHub</a>
+                                        </div>
+                                        <img src="img/project.png" alt="Chat Application" class="project-img">
+                                    </div>
+                                    <div class="project-info">
+                                        <h3>Chat Application</h3>
+                                        <p>Real-time chat application with file sharing and video call capabilities.</p>
+                                        <div class="project-tech">
+                                            <span>React</span>
+                                            <span>WebRTC</span>
+                                            <span>Socket.io</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                Pricing Plans
+            </h2>
+            <p class="text-center text-secondary mb-5">Choose the perfect plan for your project needs</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Basic</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">499</span>
+                                <span class="period">/project</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check-circle"></i> Up to 5 pages</li>
+                            <li><i class="fas fa-check-circle"></i> Responsive design</li>
+                            <li><i class="fas fa-check-circle"></i> Basic SEO</li>
+                            <li><i class="fas fa-check-circle"></i> Contact form</li>
+                            <li><i class="fas fa-check-circle"></i> 2 revisions</li>
+                            <li><i class="fas fa-check-circle"></i> 2 weeks delivery</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary w-100">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">999</span>
+                                <span class="period">/project</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check-circle"></i> Up to 10 pages</li>
+                            <li><i class="fas fa-check-circle"></i> Responsive design</li>
+                            <li><i class="fas fa-check-circle"></i> Advanced SEO</li>
+                            <li><i class="fas fa-check-circle"></i> Contact form + integrations</li>
+                            <li><i class="fas fa-check-circle"></i> CMS integration</li>
+                            <li><i class="fas fa-check-circle"></i> 5 revisions</li>
+                            <li><i class="fas fa-check-circle"></i> 3-4 weeks delivery</li>
+                            <li><i class="fas fa-check-circle"></i> 1 month support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary w-100">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Enterprise</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">2499</span>
+                                <span class="period">/project</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check-circle"></i> Unlimited pages</li>
+                            <li><i class="fas fa-check-circle"></i> Custom design</li>
+                            <li><i class="fas fa-check-circle"></i> Full SEO optimization</li>
+                            <li><i class="fas fa-check-circle"></i> Advanced integrations</li>
+                            <li><i class="fas fa-check-circle"></i> Custom CMS</li>
+                            <li><i class="fas fa-check-circle"></i> E-commerce functionality</li>
+                            <li><i class="fas fa-check-circle"></i> Unlimited revisions</li>
+                            <li><i class="fas fa-check-circle"></i> 6-8 weeks delivery</li>
+                            <li><i class="fas fa-check-circle"></i> 3 months support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary w-100">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">05.</span>
+                Client Testimonials
+            </h2>
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">"Working with this developer was an absolute pleasure. The attention to detail and commitment to delivering high-quality work exceeded our expectations. The website they created for us has significantly improved our online presence."</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h4>John Smith</h4>
+                                        <p>CEO, Tech Solutions Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">"The developer's expertise in modern web technologies is impressive. They transformed our vision into a beautiful, functional website that our customers love. Highly recommended for anyone looking for professional web development services."</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h4>Sarah Johnson</h4>
+                                        <p>Founder, Creative Agency</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">"Outstanding work! The developer delivered a stunning website that perfectly captures our brand identity. The communication throughout the project was excellent, and they were always responsive to our feedback. We couldn't be happier!"</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h4>Michael Chen</h4>
+                                        <p>Marketing Director, Global Corp</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">06.</span>
+                Frequently Asked Questions
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                    What services do you offer?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    I offer a wide range of web development services including frontend and backend development, UI/UX design, responsive web design, e-commerce solutions, CMS integration, SEO optimization, and ongoing maintenance and support.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    How long does a typical project take?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Project timelines vary depending on the scope and complexity. A basic website typically takes 2-3 weeks, while more complex projects can take 4-8 weeks. I'll provide a detailed timeline during our initial consultation.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    Do you provide ongoing support after project completion?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, I offer ongoing support and maintenance packages. Depending on your plan, you'll receive support for bug fixes, updates, security patches, and technical assistance. Support duration varies by package (1-3 months included, with options to extend).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    What technologies do you work with?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    I work with modern web technologies including React, Vue.js, Node.js, Python, PHP, HTML5, CSS3, JavaScript, TypeScript, and various databases like MySQL, MongoDB, and PostgreSQL. I also have experience with popular CMS platforms and cloud services.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    Can you work with existing websites?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! I can help redesign, update, or enhance existing websites. Whether you need a complete overhaul or specific improvements, I can work with your current setup and make it better.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                    What is your payment process?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    I typically work with a 50% upfront payment to begin the project, and the remaining 50% upon completion. For larger projects, we can arrange milestone-based payments. All payment methods are secure and discussed during project initiation.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                    Do you provide SEO services?
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, I include basic SEO optimization in all projects, and advanced SEO is available in Professional and Enterprise packages. This includes meta tags, structured data, sitemap creation, performance optimization, and best practices for search engine visibility.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                    How do we communicate during the project?
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Communication is key! I maintain regular contact through email, video calls, and project management tools. You'll receive regular updates on progress and can provide feedback at any stage. I'm always available to answer questions and discuss your project.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                Get In Touch
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <div class="contact-methods">
+                        <a href="mailto:your.email@example.com" class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <span>your.email@example.com</span>
+                        </a>
+                        <a href="tel:+1234567890" class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                            <span>+1 (234) 567-890</span>
+                        </a>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Your Name. All rights reserved.</p>
+            <p class="footer-note">Designed & Built with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
